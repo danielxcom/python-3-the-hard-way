@@ -9,7 +9,7 @@ def rewind(f):
     f.seek(0)
 
 def print_a_line(line_count, f):
-    print(line_count, f.readline()) # Concat variable and funtion
+    print(line_count, f.readline(), end='') # Concat variable and funtion. End with no new line
 
 current_file = open(input_file)
 
@@ -23,7 +23,7 @@ rewind(current_file)
 
 print("Let's print three lines:")
 
-current_line += 1
+current_line = 1
 print_a_line(current_line, current_file)
 
 current_line += 1
