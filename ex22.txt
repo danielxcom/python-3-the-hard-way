@@ -1,0 +1,13 @@
+"double quotes" is a string wrapper
+'single quotes' is a string wrapper
+# (pound sign, number sign, hash) is for commenting
+
++ is plus
+- is minus
+/ (slash) is divide
+* (asterisk) is multiply
+% (percent sign) is modulo
+= is for variable assignment
+== is for comparison
+f"" (f-strings) will do python code in {} and print value
+{} (curly braces or curly brackets) see above
